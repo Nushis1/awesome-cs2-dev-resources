@@ -1,8 +1,8 @@
 # awesome-cs2-dev-resources
 
-Zbiór linków i notatek na temat repozytoriów GitHub oraz bibliotek C++ przydatnych przy pracy z silnikiem Source 2 / Counter-Strike 2 — SDK, generatory offsetów, narzędzia do analizy pamięci, frameworki do serwerów i pluginów, parsery dem, a także biblioteki do grafiki, dźwięku i przetwarzania obrazu.
+Zbiór linków i notatek na temat repozytoriów GitHub oraz bibliotek C++ przydatnych przy pracy z silnikiem Source 2 / Counter-Strike 2 - SDK, generatory offsetów, narzędzia do analizy pamięci, frameworki do serwerów i pluginów, parsery dem, a także biblioteki do grafiki, dźwięku i przetwarzania obrazu.
 
-> Repozytorium ma charakter wyłącznie informacyjny/edukacyjny — zestawienie publicznie dostępnych projektów open source oraz oficjalnej dokumentacji Valve i bibliotek graficznych/audio.
+> Repozytorium ma charakter wyłącznie informacyjny/edukacyjny - zestawienie publicznie dostępnych projektów open source oraz oficjalnej dokumentacji Valve i bibliotek graficznych/audio.
 
 ## Spis treści
 
@@ -40,7 +40,7 @@ Zbiór linków i notatek na temat repozytoriów GitHub oraz bibliotek C++ przyda
 | --- | --- | --- |
 | **a2x/cs2-dumper** | https://github.com/a2x/cs2-dumper | Najpopularniejsze narzędzie do generowania offsetów i interfejsów dla CS2 (~2181 gwiazdek, 334 forki). Napisane w Rust z wykorzystaniem memflow. Obsługuje Windows i Linux. Generuje kod dla C#, C++, Rust oraz JSON. |
 | **scros22/cs2-universal-offsets** | https://github.com/scros22/cs2-universal-offsets | Generator zewnętrznego SDK dla CS2 napisany w Rust. Odczytuje działający proces cs2.exe i generuje strukturę plików nagłówkowych C++ zawierającą schematy, sygnatury, offsety, interfejsy, tablice wirtualne (vtables) oraz definicje przycisków. Około 70 gwiazdek. |
-| **sezzyaep/CS2-OFFSETS** | https://github.com/sezzyaep/CS2-OFFSETS | Gotowe, statyczne offsety i interfejsy dla CS2 w wielu językach (C#, C++, Python, Rust, JSON, YAML). Nie wymaga uruchamiania dumppera — wystarczy pobrać aktualne pliki. Około 194 gwiazdek. |
+| **sezzyaep/CS2-OFFSETS** | https://github.com/sezzyaep/CS2-OFFSETS | Gotowe, statyczne offsety i interfejsy dla CS2 w wielu językach (C#, C++, Python, Rust, JSON, YAML). Nie wymaga uruchamiania dumppera - wystarczy pobrać aktualne pliki. Około 194 gwiazdek. |
 | **a2x/cs2-analyzer** | https://github.com/a2x/cs2-analyzer | Rozwijana wersja offline projektu cs2-dumper, dostępna również jako demonstracja webowa. |
 | **dr-NHA/CS2-Schema-System-Dumper-CE** | https://github.com/dr-NHA/CS2-Schema-System-Dumper-CE | Narzędzie do zrzucania schematów systemowych CS2 oparte na Cheat Engine. |
 
@@ -48,7 +48,7 @@ Zbiór linków i notatek na temat repozytoriów GitHub oraz bibliotek C++ przyda
 
 | Repozytorium | Link | Opis |
 | --- | --- | --- |
-| **Amiralisa5/Counter-Strike-2-Reverse-Engineering-Framework** | https://github.com/Amiralisa5/Counter-Strike-2-Reverse-Engineering-Framework | Aspasia — framework badawczy w C++ przeznaczony do reverse engineeringu i prototypowania mechanik w CS2. Powstał jako praca magisterska na UC3M. Zawiera moduły do analizy encji, ruchu oraz przykładowe implementacje. |
+| **Amiralisa5/Counter-Strike-2-Reverse-Engineering-Framework** | https://github.com/Amiralisa5/Counter-Strike-2-Reverse-Engineering-Framework | Aspasia - framework badawczy w C++ przeznaczony do reverse engineeringu i prototypowania mechanik w CS2. Powstał jako praca magisterska na UC3M. Zawiera moduły do analizy encji, ruchu oraz przykładowe implementacje. |
 | **Travers9483/mcp-cheat-engine** | https://github.com/Travers9483/mcp-cheat-engine | Serwer MCP umożliwiający asystentom AI sterowanie Cheat Engine, x64dbg i Ghidrą. Obsługuje skanowanie pamięci, odczyt, zapis, deasemblację i inne operacje przez wspólny interfejs. |
 
 ## Narzędzia zewnętrzne i projekty open source
@@ -111,7 +111,7 @@ Zbiór linków i notatek na temat repozytoriów GitHub oraz bibliotek C++ przyda
 
 ## Biblioteki C++ do efektów
 
-Ogólne, uniwersalne biblioteki C++ do grafiki, dźwięku i przetwarzania obrazu — przydatne w wielu projektach, niekoniecznie związanych z CS2.
+Ogólne, uniwersalne biblioteki C++ do grafiki, dźwięku i przetwarzania obrazu - przydatne w wielu projektach, niekoniecznie związanych z CS2.
 
 ### Renderowanie i grafika
 
@@ -132,7 +132,7 @@ Ogólne, uniwersalne biblioteki C++ do grafiki, dźwięku i przetwarzania obrazu
 
 | Biblioteka | Link | Opis |
 | --- | --- | --- |
-| **ParticleUniverse** | https://github.com/ParticleUniverse/ParticleUniverse | Otwartoźródłowy silnik systemów cząsteczkowych dla Ogre3D — ogień, dym, eksplozje itp. |
+| **ParticleUniverse** | https://github.com/ParticleUniverse/ParticleUniverse | Otwartoźródłowy silnik systemów cząsteczkowych dla Ogre3D - ogień, dym, eksplozje itp. |
 
 ### Systemy shaderów
 
@@ -198,4 +198,4 @@ Kontekst: projekty wykorzystujące Present Hook, nakładki (overlay), analizę p
 
 ## Licencja / Uwaga
 
-Ten dokument to jedynie zestawienie linków do publicznie dostępnych repozytoriów i bibliotek. Każdy projekt ma własną licencję — sprawdź ją przed użyciem. Linki do narzędzi typu "external cheat" / dumper offsetów są tu wymienione w celach informacyjnych (reverse engineering, badania nad silnikiem Source 2); korzystanie z nich w grze online może naruszać regulamin Valve/VAC.
+Ten dokument to jedynie zestawienie linków do publicznie dostępnych repozytoriów i bibliotek. Każdy projekt ma własną licencję - sprawdź ją przed użyciem. Linki do narzędzi typu "external cheat" / dumper offsetów są tu wymienione w celach informacyjnych (reverse engineering, badania nad silnikiem Source 2); korzystanie z nich w grze online może naruszać regulamin Valve/VAC.

@@ -2,9 +2,9 @@
 
 🇵🇱 [Polski](pl.md) | 🇬🇧 [English](en.md)
 
-A curated list of GitHub repositories and C++ libraries useful for working with the Source 2 engine / Counter-Strike 2 — SDKs, offset generators, memory analysis tools, server and plugin frameworks, demo parsers, and libraries for graphics, audio, and image processing.
+A curated list of GitHub repositories and C++ libraries useful for working with the Source 2 engine / Counter-Strike 2 - SDKs, offset generators, memory analysis tools, server and plugin frameworks, demo parsers, and libraries for graphics, audio, and image processing.
 
-> This repository is for informational/educational purposes only — a collection of publicly available open-source projects and official Valve documentation and graphics/audio libraries.
+> This repository is for informational/educational purposes only - a collection of publicly available open-source projects and official Valve documentation and graphics/audio libraries.
 
 ## Table of contents
 
@@ -42,7 +42,7 @@ A curated list of GitHub repositories and C++ libraries useful for working with 
 | --- | --- | --- |
 | **a2x/cs2-dumper** | https://github.com/a2x/cs2-dumper | The most popular tool for generating offsets and interfaces for CS2 (~2181 stars, 334 forks). Written in Rust using memflow. Supports Windows and Linux. Generates code for C#, C++, Rust, and JSON. |
 | **scros22/cs2-universal-offsets** | https://github.com/scros22/cs2-universal-offsets | External SDK generator for CS2 written in Rust. Reads a running cs2.exe process and generates a C++ header file structure containing schemas, signatures, offsets, interfaces, vtables, and button definitions. Around 70 stars. |
-| **sezzyaep/CS2-OFFSETS** | https://github.com/sezzyaep/CS2-OFFSETS | Ready-made, static offsets and interfaces for CS2 in multiple languages (C#, C++, Python, Rust, JSON, YAML). No dumper needed — just download the current files. Around 194 stars. |
+| **sezzyaep/CS2-OFFSETS** | https://github.com/sezzyaep/CS2-OFFSETS | Ready-made, static offsets and interfaces for CS2 in multiple languages (C#, C++, Python, Rust, JSON, YAML). No dumper needed - just download the current files. Around 194 stars. |
 | **a2x/cs2-analyzer** | https://github.com/a2x/cs2-analyzer | An actively developed offline version of the cs2-dumper project, also available as a web demo. |
 | **dr-NHA/CS2-Schema-System-Dumper-CE** | https://github.com/dr-NHA/CS2-Schema-System-Dumper-CE | A CS2 system schema dumping tool based on Cheat Engine. |
 
@@ -50,7 +50,7 @@ A curated list of GitHub repositories and C++ libraries useful for working with 
 
 | Repository | Link | Description |
 | --- | --- | --- |
-| **Amiralisa5/Counter-Strike-2-Reverse-Engineering-Framework** | https://github.com/Amiralisa5/Counter-Strike-2-Reverse-Engineering-Framework | Aspasia — a C++ research framework for reverse engineering and prototyping mechanics in CS2. Created as a master's thesis at UC3M. Includes modules for entity and movement analysis, plus example implementations. |
+| **Amiralisa5/Counter-Strike-2-Reverse-Engineering-Framework** | https://github.com/Amiralisa5/Counter-Strike-2-Reverse-Engineering-Framework | Aspasia - a C++ research framework for reverse engineering and prototyping mechanics in CS2. Created as a master's thesis at UC3M. Includes modules for entity and movement analysis, plus example implementations. |
 | **Travers9483/mcp-cheat-engine** | https://github.com/Travers9483/mcp-cheat-engine | An MCP server that lets AI assistants control Cheat Engine, x64dbg, and Ghidra. Supports memory scanning, reading, writing, disassembly, and other operations through a shared interface. |
 
 ## External tools and open-source projects
@@ -113,7 +113,7 @@ A curated list of GitHub repositories and C++ libraries useful for working with 
 
 ## C++ effects libraries
 
-General-purpose C++ libraries for graphics, audio, and image processing — useful across many projects, not necessarily tied to CS2.
+General-purpose C++ libraries for graphics, audio, and image processing - useful across many projects, not necessarily tied to CS2.
 
 ### Rendering and graphics
 
@@ -134,7 +134,7 @@ General-purpose C++ libraries for graphics, audio, and image processing — usef
 
 | Library | Link | Description |
 | --- | --- | --- |
-| **ParticleUniverse** | https://github.com/ParticleUniverse/ParticleUniverse | An open-source particle system engine for Ogre3D — usable for effects like fire, smoke, and explosions. |
+| **ParticleUniverse** | https://github.com/ParticleUniverse/ParticleUniverse | An open-source particle system engine for Ogre3D - usable for effects like fire, smoke, and explosions. |
 
 ### Shader systems
 
@@ -200,4 +200,4 @@ Context: projects using Present hooking, overlays, memory analysis, or a custom 
 
 ## License / Note
 
-This document is only a collection of links to publicly available repositories and libraries. Each project has its own license — check it before use. Links to "external cheat" / offset dumper tools are listed here for informational purposes (reverse engineering, research on the Source 2 engine); using them in an online game may violate Valve's/VAC's terms of service.
+This document is only a collection of links to publicly available repositories and libraries. Each project has its own license - check it before use. Links to "external cheat" / offset dumper tools are listed here for informational purposes (reverse engineering, research on the Source 2 engine); using them in an online game may violate Valve's/VAC's terms of service.

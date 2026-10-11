@@ -35,7 +35,7 @@ Lista obejmuje SDK, generatory struktur i offsetów, narzędzia do analizy plik�
 |---|---|---|
 | **bruhmoment21/cs2-sdk** | [GitHub](https://github.com/bruhmoment21/cs2-sdk) | Baza SDK w C++ do eksperymentów z CS2. Projekt opisuje obsługę Windows i Linux oraz backendów graficznych DirectX 11 i Vulkan. Sprawdź README i licencję przed użyciem. |
 | **uraioa/cs2sdk** | [GitHub](https://github.com/uraioa/cs2sdk) | Starsza wersja lub fork bazy SDK dla CS2. Zachowano pozycję z oryginalnej listy; sprawdź zgodność z aktualną wersją gry. |
-| **neverlosecc/source2gen** | [GitHub](https://github.com/neverlosecc/source2gen) | Generator SDK dla gier opartych na Source 2. Przed wykorzystaniem sprawdź obsługiwane gry, formaty wyjściowe i wymagania wersji. |
+| **byte-seeker/source2generator (alternatywa dla neverlosecc/source2gen)**| [GitHub](https://github.com/byte-seeker/source2generator) | Generator SDK dla gier opartych na Source 2. Przed wykorzystaniem sprawdź obsługiwane gry, formaty wyjściowe i wymagania wersji. |
 | **CS2-SDK-Reference/source2sdk** | [GitHub — katalog source2sdk](https://github.com/ccsimplyspolit/CS2-SDK-Reference/tree/main/source2sdk) | Zbiór referencyjnych plików SDK. Uwaga: ten link prowadzi do katalogu w repozytorium `CS2-SDK-Reference`, a nie do repozytorium `neverlosecc/source2sdk`. |
 
 ## Analiza plików, schematów i offsetów
